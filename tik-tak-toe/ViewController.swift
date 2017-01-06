@@ -10,45 +10,54 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var activePlayer = 1 //Cross
+    // 1 == cross / 2 == nought
+    var currentPlayer = 1
+    
     var gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     
-    let winningCombinations = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
-    var gameIsActive = true
+    let winnerIf = [
+        [0, 1, 2],
+        [3, 4, 5],
+        [6, 7, 8],
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8],
+        [0, 4, 8],
+        [2, 4, 6]
+    ]
+    var gameOn = true
     
     @IBOutlet weak var label: UILabel!
     
-    @IBAction func action(_ sender: AnyObject)
-    {
-        if (gameState[sender.tag-1] == 0 && gameIsActive == true)
+    @IBAction func action(_ sender: AnyObject) {
+        if (gameState[sender.tag-1] == 0 && gameOn == true)
         {
-            gameState[sender.tag-1] = activePlayer
+            gameState[sender.tag-1] = currentPlayer
             
-            if (activePlayer == 1)
+            if (currentPlayer == 1)
             {
                 sender.setImage(UIImage(named: "Cross.png"), for: UIControlState())
-                activePlayer = 2
+                currentPlayer = 2
             }
             else
             {
                 sender.setImage(UIImage(named: "Nought.png"), for: UIControlState())
-                activePlayer = 1
+                currentPlayer = 1
             }
         }
         
-        for combination in winningCombinations
-        {
+        for combination in winnerIf {
             if gameState[combination[0]] != 0 && gameState[combination[0]] == gameState[combination[1]] && gameState[combination[1]] == gameState[combination[2]]
             {
-                gameIsActive = false
+                gameOn = false
                 
                 if gameState[combination[0]] == 1
                 {
-                    label.text = "CROSS HAS WON!"
+                    label.text = "Cross has won!"
                 }
                 else
                 {
-                    label.text = "NOUGHT HAS WON!"
+                    label.text = "Nought has won!"
                 }
                 
                 playAgainButton.isHidden = false
@@ -56,20 +65,20 @@ class ViewController: UIViewController {
             }
         }
         
-        gameIsActive = false
+        gameOn = false
         
         for i in gameState
         {
             if i == 0
             {
-                gameIsActive = true
+                gameOn = true
                 break
             }
         }
         
-        if gameIsActive == false
+        if gameOn == false
         {
-            label.text = "IT WAS A DRAW"
+            label.text = "It's a draw!"
             label.isHidden = false
             playAgainButton.isHidden = false
         }
@@ -80,8 +89,8 @@ class ViewController: UIViewController {
     @IBAction func playAgain(_ sender: AnyObject)
     {
         gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
-        gameIsActive = true
-        activePlayer = 1
+        gameOn = true
+        currentPlayer = 1
         
         playAgainButton.isHidden = true
         label.isHidden = true

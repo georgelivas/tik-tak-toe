@@ -9,20 +9,97 @@
 /* Begin PBXBuildFile section */
 		C864EF5E1E1ECAE100AB72B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864EF5D1E1ECAE100AB72B1 /* AppDelegate.swift */; };
 		C864EF601E1ECAE100AB72B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864EF5F1E1ECAE100AB72B1 /* ViewController.swift */; };
-		C864EF631E1ECAE100AB72B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864EF611E1ECAE100AB72B1 /* Main.storyboard */; };
 		C864EF661E1ECAE100AB72B1 /* tik_tak_toe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C864EF641E1ECAE100AB72B1 /* tik_tak_toe.xcdatamodeld */; };
 		C864EF681E1ECAE100AB72B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C864EF671E1ECAE100AB72B1 /* Assets.xcassets */; };
 		C864EF6B1E1ECAE100AB72B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C864EF691E1ECAE100AB72B1 /* LaunchScreen.storyboard */; };
 		C864EF751E1ECB8E00AB72B1 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = C864EF721E1ECB8E00AB72B1 /* Board.png */; };
 		C864EF761E1ECB8E00AB72B1 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = C864EF731E1ECB8E00AB72B1 /* Cross.png */; };
 		C864EF771E1ECB8E00AB72B1 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = C864EF741E1ECB8E00AB72B1 /* Nought.png */; };
+		C8B9D3061E1FD00F0051FAAB /* tik-tac-toe Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C8B9D3051E1FD00F0051FAAB /* tik-tac-toe Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C8B9D31B1E1FD00F0051FAAB /* tik-tac-toe.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C8B9D2F91E1FD00F0051FAAB /* tik-tac-toe.app */; };
+		C8B9D32A1E1FD0D20051FAAB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B9D3281E1FD0D20051FAAB /* Interface.storyboard */; };
+		C8B9D32C1E1FD0D20051FAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B9D32B1E1FD0D20051FAAB /* Assets.xcassets */; };
+		C8B9D3331E1FD0D20051FAAB /* X-O Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C8B9D3321E1FD0D20051FAAB /* X-O Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C8B9D33A1E1FD0D20051FAAB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9D3391E1FD0D20051FAAB /* InterfaceController.swift */; };
+		C8B9D33C1E1FD0D20051FAAB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9D33B1E1FD0D20051FAAB /* ExtensionDelegate.swift */; };
+		C8B9D33E1E1FD0D20051FAAB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9D33D1E1FD0D20051FAAB /* NotificationController.swift */; };
+		C8B9D3401E1FD0D20051FAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B9D33F1E1FD0D20051FAAB /* Assets.xcassets */; };
+		C8B9D3441E1FD0D20051FAAB /* X-O.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C8B9D3261E1FD0D20051FAAB /* X-O.app */; };
+		C8B9D3501E1FD8080051FAAB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B9D3281E1FD0D20051FAAB /* Interface.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8B9D3071E1FD00F0051FAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C864EF521E1ECAE100AB72B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B9D3041E1FD00F0051FAAB;
+			remoteInfo = "tik-tac-toe Extension";
+		};
+		C8B9D3191E1FD00F0051FAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C864EF521E1ECAE100AB72B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B9D2F81E1FD00F0051FAAB;
+			remoteInfo = "tik-tac-toe";
+		};
+		C8B9D3341E1FD0D20051FAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C864EF521E1ECAE100AB72B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B9D3311E1FD0D20051FAAB;
+			remoteInfo = "X-O Extension";
+		};
+		C8B9D3421E1FD0D20051FAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C864EF521E1ECAE100AB72B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B9D3251E1FD0D20051FAAB;
+			remoteInfo = "X-O";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8B9D31F1E1FD00F0051FAAB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C8B9D3061E1FD00F0051FAAB /* tik-tac-toe Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B9D3231E1FD00F0051FAAB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C8B9D3441E1FD0D20051FAAB /* X-O.app in Embed Watch Content */,
+				C8B9D31B1E1FD00F0051FAAB /* tik-tac-toe.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B9D3481E1FD0D20051FAAB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C8B9D3331E1FD0D20051FAAB /* X-O Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C864EF5A1E1ECAE100AB72B1 /* tik-tak-toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tik-tak-toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C864EF5D1E1ECAE100AB72B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C864EF5F1E1ECAE100AB72B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C864EF621E1ECAE100AB72B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C864EF651E1ECAE100AB72B1 /* tik_tak_toe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tik_tak_toe.xcdatamodel; sourceTree = "<group>"; };
 		C864EF671E1ECAE100AB72B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C864EF6A1E1ECAE100AB72B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,10 +107,37 @@
 		C864EF721E1ECB8E00AB72B1 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
 		C864EF731E1ECB8E00AB72B1 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
 		C864EF741E1ECB8E00AB72B1 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nought.png; sourceTree = "<group>"; };
+		C8B9D2F91E1FD00F0051FAAB /* tik-tac-toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tik-tac-toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B9D3051E1FD00F0051FAAB /* tik-tac-toe Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tik-tac-toe Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B9D3261E1FD0D20051FAAB /* X-O.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "X-O.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B9D3291E1FD0D20051FAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C8B9D32B1E1FD0D20051FAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8B9D32D1E1FD0D20051FAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B9D3321E1FD0D20051FAAB /* X-O Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "X-O Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B9D3381E1FD0D20051FAAB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C8B9D3391E1FD0D20051FAAB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C8B9D33B1E1FD0D20051FAAB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C8B9D33D1E1FD0D20051FAAB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C8B9D33F1E1FD0D20051FAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8B9D3411E1FD0D20051FAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C864EF571E1ECAE100AB72B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B9D3021E1FD00F0051FAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B9D32F1E1FD0D20051FAAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				C864EF5C1E1ECAE100AB72B1 /* tik-tak-toe */,
+				C8B9D3271E1FD0D20051FAAB /* X-O */,
+				C8B9D3361E1FD0D20051FAAB /* X-O Extension */,
 				C864EF5B1E1ECAE100AB72B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +161,10 @@
 			isa = PBXGroup;
 			children = (
 				C864EF5A1E1ECAE100AB72B1 /* tik-tak-toe.app */,
+				C8B9D2F91E1FD00F0051FAAB /* tik-tac-toe.app */,
+				C8B9D3051E1FD00F0051FAAB /* tik-tac-toe Extension.appex */,
+				C8B9D3261E1FD0D20051FAAB /* X-O.app */,
+				C8B9D3321E1FD0D20051FAAB /* X-O Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,7 +174,6 @@
 			children = (
 				C864EF5D1E1ECAE100AB72B1 /* AppDelegate.swift */,
 				C864EF5F1E1ECAE100AB72B1 /* ViewController.swift */,
-				C864EF611E1ECAE100AB72B1 /* Main.storyboard */,
 				C864EF671E1ECAE100AB72B1 /* Assets.xcassets */,
 				C864EF691E1ECAE100AB72B1 /* LaunchScreen.storyboard */,
 				C864EF6C1E1ECAE100AB72B1 /* Info.plist */,
@@ -74,6 +183,37 @@
 				C864EF741E1ECB8E00AB72B1 /* Nought.png */,
 			);
 			path = "tik-tak-toe";
+			sourceTree = "<group>";
+		};
+		C8B9D3271E1FD0D20051FAAB /* X-O */ = {
+			isa = PBXGroup;
+			children = (
+				C8B9D3281E1FD0D20051FAAB /* Interface.storyboard */,
+				C8B9D32B1E1FD0D20051FAAB /* Assets.xcassets */,
+				C8B9D32D1E1FD0D20051FAAB /* Info.plist */,
+			);
+			path = "X-O";
+			sourceTree = "<group>";
+		};
+		C8B9D3361E1FD0D20051FAAB /* X-O Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C8B9D3391E1FD0D20051FAAB /* InterfaceController.swift */,
+				C8B9D33B1E1FD0D20051FAAB /* ExtensionDelegate.swift */,
+				C8B9D33D1E1FD0D20051FAAB /* NotificationController.swift */,
+				C8B9D33F1E1FD0D20051FAAB /* Assets.xcassets */,
+				C8B9D3411E1FD0D20051FAAB /* Info.plist */,
+				C8B9D3371E1FD0D20051FAAB /* Supporting Files */,
+			);
+			path = "X-O Extension";
+			sourceTree = "<group>";
+		};
+		C8B9D3371E1FD0D20051FAAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8B9D3381E1FD0D20051FAAB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,15 +226,86 @@
 				C864EF561E1ECAE100AB72B1 /* Sources */,
 				C864EF571E1ECAE100AB72B1 /* Frameworks */,
 				C864EF581E1ECAE100AB72B1 /* Resources */,
+				C8B9D3231E1FD00F0051FAAB /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C8B9D31A1E1FD00F0051FAAB /* PBXTargetDependency */,
+				C8B9D3431E1FD0D20051FAAB /* PBXTargetDependency */,
 			);
 			name = "tik-tak-toe";
 			productName = "tik-tak-toe";
 			productReference = C864EF5A1E1ECAE100AB72B1 /* tik-tak-toe.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C8B9D2F81E1FD00F0051FAAB /* tik-tac-toe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B9D3201E1FD00F0051FAAB /* Build configuration list for PBXNativeTarget "tik-tac-toe" */;
+			buildPhases = (
+				C8B9D2F71E1FD00F0051FAAB /* Resources */,
+				C8B9D31F1E1FD00F0051FAAB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8B9D3081E1FD00F0051FAAB /* PBXTargetDependency */,
+			);
+			name = "tik-tac-toe";
+			productName = "tik-tac-toe";
+			productReference = C8B9D2F91E1FD00F0051FAAB /* tik-tac-toe.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C8B9D3041E1FD00F0051FAAB /* tik-tac-toe Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B9D31C1E1FD00F0051FAAB /* Build configuration list for PBXNativeTarget "tik-tac-toe Extension" */;
+			buildPhases = (
+				C8B9D3011E1FD00F0051FAAB /* Sources */,
+				C8B9D3021E1FD00F0051FAAB /* Frameworks */,
+				C8B9D3031E1FD00F0051FAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tik-tac-toe Extension";
+			productName = "tik-tac-toe Extension";
+			productReference = C8B9D3051E1FD00F0051FAAB /* tik-tac-toe Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		C8B9D3251E1FD0D20051FAAB /* X-O */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B9D3491E1FD0D20051FAAB /* Build configuration list for PBXNativeTarget "X-O" */;
+			buildPhases = (
+				C8B9D3241E1FD0D20051FAAB /* Resources */,
+				C8B9D3481E1FD0D20051FAAB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8B9D3351E1FD0D20051FAAB /* PBXTargetDependency */,
+			);
+			name = "X-O";
+			productName = "X-O";
+			productReference = C8B9D3261E1FD0D20051FAAB /* X-O.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C8B9D3311E1FD0D20051FAAB /* X-O Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B9D3451E1FD0D20051FAAB /* Build configuration list for PBXNativeTarget "X-O Extension" */;
+			buildPhases = (
+				C8B9D32E1E1FD0D20051FAAB /* Sources */,
+				C8B9D32F1E1FD0D20051FAAB /* Frameworks */,
+				C8B9D3301E1FD0D20051FAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "X-O Extension";
+			productName = "X-O Extension";
+			productReference = C8B9D3321E1FD0D20051FAAB /* X-O Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -102,11 +313,30 @@
 		C864EF521E1ECAE100AB72B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Giorgos livas";
 				TargetAttributes = {
 					C864EF591E1ECAE100AB72B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C8B9D2F81E1FD00F0051FAAB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C8B9D3041E1FD00F0051FAAB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C8B9D3251E1FD0D20051FAAB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C8B9D3311E1FD0D20051FAAB = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -126,6 +356,10 @@
 			projectRoot = "";
 			targets = (
 				C864EF591E1ECAE100AB72B1 /* tik-tak-toe */,
+				C8B9D2F81E1FD00F0051FAAB /* tik-tac-toe */,
+				C8B9D3041E1FD00F0051FAAB /* tik-tac-toe Extension */,
+				C8B9D3251E1FD0D20051FAAB /* X-O */,
+				C8B9D3311E1FD0D20051FAAB /* X-O Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +374,38 @@
 				C864EF6B1E1ECAE100AB72B1 /* LaunchScreen.storyboard in Resources */,
 				C864EF761E1ECB8E00AB72B1 /* Cross.png in Resources */,
 				C864EF681E1ECAE100AB72B1 /* Assets.xcassets in Resources */,
-				C864EF631E1ECAE100AB72B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B9D2F71E1FD00F0051FAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B9D3501E1FD8080051FAAB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B9D3031E1FD00F0051FAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B9D3241E1FD0D20051FAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B9D32C1E1FD0D20051FAAB /* Assets.xcassets in Resources */,
+				C8B9D32A1E1FD0D20051FAAB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B9D3301E1FD0D20051FAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B9D3401E1FD0D20051FAAB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,23 +422,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C8B9D3011E1FD00F0051FAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B9D32E1E1FD0D20051FAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B9D33E1E1FD0D20051FAAB /* NotificationController.swift in Sources */,
+				C8B9D33C1E1FD0D20051FAAB /* ExtensionDelegate.swift in Sources */,
+				C8B9D33A1E1FD0D20051FAAB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C864EF611E1ECAE100AB72B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C864EF621E1ECAE100AB72B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		C8B9D3081E1FD00F0051FAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B9D3041E1FD00F0051FAAB /* tik-tac-toe Extension */;
+			targetProxy = C8B9D3071E1FD00F0051FAAB /* PBXContainerItemProxy */;
 		};
+		C8B9D31A1E1FD00F0051FAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B9D2F81E1FD00F0051FAAB /* tik-tac-toe */;
+			targetProxy = C8B9D3191E1FD00F0051FAAB /* PBXContainerItemProxy */;
+		};
+		C8B9D3351E1FD0D20051FAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B9D3311E1FD0D20051FAAB /* X-O Extension */;
+			targetProxy = C8B9D3341E1FD0D20051FAAB /* PBXContainerItemProxy */;
+		};
+		C8B9D3431E1FD0D20051FAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B9D3251E1FD0D20051FAAB /* X-O */;
+			targetProxy = C8B9D3421E1FD0D20051FAAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		C864EF691E1ECAE100AB72B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C864EF6A1E1ECAE100AB72B1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C8B9D3281E1FD0D20051FAAB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B9D3291E1FD0D20051FAAB /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -294,6 +599,136 @@
 			};
 			name = Release;
 		};
+		C8B9D31D1E1FD00F0051FAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "tik-tac-toe Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glivas.tik-tak-toe.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		C8B9D31E1E1FD00F0051FAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "tik-tac-toe Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glivas.tik-tak-toe.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		C8B9D3211E1FD00F0051FAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = tik_tac_toe_Extension;
+				INFOPLIST_FILE = "tik-tac-toe/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glivas.tik-tak-toe.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		C8B9D3221E1FD00F0051FAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = tik_tac_toe_Extension;
+				INFOPLIST_FILE = "tik-tac-toe/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glivas.tik-tak-toe.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		C8B9D3461E1FD0D20051FAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "X-O Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glivas.tik-tak-toe.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		C8B9D3471E1FD0D20051FAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "X-O Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glivas.tik-tak-toe.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		C8B9D34A1E1FD0D20051FAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = X_O_Extension;
+				INFOPLIST_FILE = "X-O/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glivas.tik-tak-toe.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		C8B9D34B1E1FD0D20051FAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = X_O_Extension;
+				INFOPLIST_FILE = "X-O/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glivas.tik-tak-toe.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -311,6 +746,39 @@
 			buildConfigurations = (
 				C864EF701E1ECAE100AB72B1 /* Debug */,
 				C864EF711E1ECAE100AB72B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B9D31C1E1FD00F0051FAAB /* Build configuration list for PBXNativeTarget "tik-tac-toe Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B9D31D1E1FD00F0051FAAB /* Debug */,
+				C8B9D31E1E1FD00F0051FAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8B9D3201E1FD00F0051FAAB /* Build configuration list for PBXNativeTarget "tik-tac-toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B9D3211E1FD00F0051FAAB /* Debug */,
+				C8B9D3221E1FD00F0051FAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8B9D3451E1FD0D20051FAAB /* Build configuration list for PBXNativeTarget "X-O Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B9D3461E1FD0D20051FAAB /* Debug */,
+				C8B9D3471E1FD0D20051FAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8B9D3491E1FD0D20051FAAB /* Build configuration list for PBXNativeTarget "X-O" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B9D34A1E1FD0D20051FAAB /* Debug */,
+				C8B9D34B1E1FD0D20051FAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

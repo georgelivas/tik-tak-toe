@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>X-O (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>X-O.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>tik-tac-toe (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>tik-tac-toe.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>tik-tak-toe.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +33,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C864EF591E1ECAE100AB72B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C8B9D2F81E1FD00F0051FAAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C8B9D3251E1FD0D20051FAAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
