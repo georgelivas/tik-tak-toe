@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     
-    @IBOutlet weak var action: UIButton!
+   
     @IBAction func action(_ sender: Any) {
         
         if (gameState[(sender as AnyObject).tag-1] == 0 && gameRunning == true

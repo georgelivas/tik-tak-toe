@@ -121,7 +121,6 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="action" destination="W6I-FX-mWb" id="7AI-20-b6P"/>
                         <outlet property="button" destination="v3z-7i-Wc3" id="sro-Xb-HPX"/>
                         <outlet property="label" destination="JI9-zl-Fss" id="wJM-Bk-iem"/>
                         <outlet property="playAgainButton" destination="IoA-M4-5hF" id="BHv-b7-fK1"/>
