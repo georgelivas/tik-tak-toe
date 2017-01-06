@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     var activePlayer = 1
     var gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0,]
     
-<<<<<<< HEAD
     let winnerIf = [
         [0, 1, 2],
         [3, 4, 5],
@@ -31,8 +30,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
    
-=======
->>>>>>> parent of bc4581b... running!
     @IBAction func action(_ sender: Any) {
         
         if (gameState[(sender as AnyObject).tag-1] == 0){
