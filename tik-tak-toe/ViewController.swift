@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var activePlayer = 1
     var gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0,]
     
+<<<<<<< HEAD
     let winnerIf = [
         [0, 1, 2],
         [3, 4, 5],
@@ -30,13 +31,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
    
+=======
+>>>>>>> parent of bc4581b... running!
     @IBAction func action(_ sender: Any) {
         
-        if (gameState[(sender as AnyObject).tag-1] == 0 && gameRunning == true
-            ){
-            
-            gameState[(sender as AnyObject).tag-1] = activePlayer
-            
+        if (gameState[(sender as AnyObject).tag-1] == 0){
             if (activePlayer == 1) {
                 (sender as AnyObject).setImage(UIImage(named: "Cross.png"), for: UIControlState())
                 activePlayer = 2
@@ -46,58 +45,7 @@ class ViewController: UIViewController {
                 
             }
         }
-        for combination in winnerIf {
-            if gameState[combination[0]] != 0 &&
-                gameState[combination[0]] ==
-                gameState[combination[1]] &&
-                gameState[combination[1]] ==
-                gameState[combination[2]] {
-                
-                gameRunning = false
-                if gameState[combination[0]] == 1 {
-                    
-                    label.text = "Cross has won!"
-                } else {
-                    label.text = "Nought has won!"
-                }
-                
-                playAgainButton.isHidden = false;
-                label.isHidden = false;
-            }
-        }
-        
-        gameRunning = false
-        
-        for i in gameState {
-            if i == 0 {
-                gameRunning = true
-            }
-        }
-        if gameRunning == false {
-            label.text = "It's a draw!"
-            label.isHidden = false
-            playAgainButton.isHidden = false;
-        }
-
     }
-    
-    
-    @IBOutlet weak var playAgainButton: UIButton!
-    @IBAction func playAgain(_ sender: Any) {
-        gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0,]
-        gameRunning = true
-        activePlayer = 1
-        playAgainButton.isHidden = true;
-        label.isHidden = true;
-        
-        for i in 1...9 {
-            let button = view.viewWithTag(i) as! UIButton
-            button.setImage(nil, for: UIControlState())
-        }
-
-    }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
