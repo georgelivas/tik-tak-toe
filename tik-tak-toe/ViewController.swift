@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  Tic Tac Toe
-//
-//  Created by Sebastian Hette on 10.10.2016.
-//  Copyright © 2016 MAGNUMIUM. All rights reserved.
-//
+
 
 import UIKit
 
